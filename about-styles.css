@@ -1,0 +1,39 @@
+.about-top {
+  background-image: url('/images/background-image.png');
+  padding: 100px;
+}
+
+.about-top h2 {
+  font-size: x-large;
+  font-weight: 400;
+  color: #ffff;
+}
+h5 {
+  font-size: larger;
+  font-weight: 300;
+  padding: 0px 50px;
+}
+h3 {
+  color: #54577c;
+}
+.about-top p {
+  padding: 30px;
+}
+
+.our-ethos {
+  padding-top: 80px;
+  margin: 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+
+img {
+  max-width: 150px;
+}
+
+p {
+  font-size: small;
+  padding: 0px 50px;
+  font-weight: 100;
+}

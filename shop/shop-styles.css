@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+/* NAVIGATION SECTION =================================> */
+.nav {
+  justify-content: center;
+  padding: 30px;
+  display: inline;
+}
+
+.nav-left {
+  float: left;
+  margin-left: 20px;
+}
+
+.nav img {
+  max-width: 75px;
+}
+
+.nav-right {
+  margin-right: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: right;
+  opacity: 20%;
+}
+
+.nav li:hover {
+  background-color: #f4cbc6;
+  opacity: 20%;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.main-body {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.store-card {
+  margin: 10px;
+  /* padding: 40px; */
+  border-radius: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1);
+}
+
+.store-card img {
+  max-width: 300px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.store-card h3 {
+  font-weight: 400;
+}
+
+.store-card p {
+  font-weight: 200;
+}
+
+/* .store-card-info {
+  display: inline;
+} */
+
+.item-name {
+  font-weight: 900;
+}
+
+.card-right {
+  float: right;
+  margin-right: 50px;
+}
+
+.store-card-info {
+  padding: none;
+}
+/* .card-left {
+  float: left;
+  margin-left: 50px;
+} */
+
+/* MEDIA QUERIES SECTION =================================> */
+
+@media (max-width: 576px) {
+  .main-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .main-body {
+    grid-template-areas: 1fr 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-body {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
