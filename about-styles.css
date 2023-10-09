@@ -7,6 +7,7 @@
   font-size: x-large;
   font-weight: 400;
   color: #ffff;
+  min-width: 400px;
 }
 h5 {
   font-size: larger;
@@ -21,11 +22,11 @@ h3 {
 }
 
 .our-ethos {
-  padding-top: 80px;
-  margin: 30px;
+  width: 100%;
   display: grid;
-  gap: 10px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 0.125rem;
+  margin-top: 20px;
 }
 
 img {
